@@ -1,14 +1,146 @@
-@article{Beck2016Visual,
-  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
-  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
-  doi = {10.1109/TVCG.2015.2467757},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
-  number = {01},
-  publisher = {IEEE},
-  volume = {22},
-  series = {TVCG},
-  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
-  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
-  year = {2016}
+@article{gao2023revisiting,
+  title={Revisiting electrocatalyst design by a knowledge graph of Cu-based catalysts for CO2 reduction},
+  author={Gao, Yang and Wang, Ludi and Chen, Xueqing and Du, Yi and Wang, Bin},
+  journal={ACS Catalysis},
+  volume={13},
+  number={13},
+  pages={8525--8534},
+  year={2023},
+  publisher={ACS Publications},
+  abstract={Electrocatalysis takes a significant role in the production of sustainable fuels and chemicals. The combination of artificial intelligence and catalytic science is exhibiting great potential to extract, analyze, and predict electrocatalysts. However, the currently developed machine learning approach usually requires a mass of data from density functional theory calculations to train and optimize models. In contrast, a knowledge graph has the potential to extract useful information from a large amount of the literature without referring to density functional theory. Herein, a knowledge graph of Cu-based electrocatalysts for electrocatalytic CO2 reduction is constructed based on a linguistically enriched SciBERT-based framework. This framework retrieves multiple types of entities including material, regulation method, product, Faradaic efficiency, etc. from 757 scientific literature, generates representations with abundant domain-specific semantic information, and exhibits the capability to deal with electrocatalysts for CO2 reduction. The obtained graph shows the development history of related catalysts, builds relationships between the factors associated with catalysis, and provides intuitive charts for researchers to gain useful information. Furthermore, we propose a deep learning-based prediction model, which integrates the semantic information from the scientific literature (word embedding) with the correlation of knowledge triples (graph embedding) and realizes the prediction of the Faradaic efficiency for a targeted case. This work paves the way for catalyst design in the manner of merging artificial intelligence with catalytic science.}
+  doi={10.1021/acscatal.3c00759},
+  keywords= {type:knowledge graph, word embedding, CO2 reduction, electrocatalyst, copper, graph embedding, machine learning},
+  url=https://pubs.acs.org/doi/10.1021/acscatal.3c00759
+}
+
+@article{statt2023materials,
+  title={The materials experiment knowledge graph},
+  author={Statt, Michael J and Rohr, Brian A and Guevarra, Dan and Breeden, Ja'Nya and Suram, Santosh K and Gregoire, John M},
+  journal={Digital Discovery},
+  volume={2},
+  number={4},
+  pages={909--914},
+  year={2023},
+  publisher={Royal Society of Chemistry},
+  abstract={Materials knowledge is inherently hierarchical. While high-level descriptors such as composition and structure are valuable for contextualizing materials data, the data must ultimately be considered in the context of its low-level acquisition details. Graph databases offer an opportunity to represent hierarchical relationships among data, organizing semantic relationships into a knowledge graph. Herein, we establish a knowledge graph of materials experiments whose construction encodes the complete provenance of each material sample and its associated experimental data and metadata. Additional relationships among materials and experiments further encode knowledge and facilitate data exploration. We illustrate the Materials Experiment Knowledge Graph (MekG) using several use cases, demonstrating the value of modern graph databases for the enterprise of data-driven materials science.},
+  doi={10.1039/D3DD00067B},
+  keywords={materials experiment, knowledge graph, graph database, provenance management, data-driven materials discovery},
+  url={https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00067b}
+}
+
+@article{nie2022automating,
+  title={Automating materials exploration with a semantic knowledge graph for Li-ion battery cathodes},
+  author={Nie, Zhiwei and Zheng, Shisheng and Liu, Yuanji and Chen, Zhefeng and Li, Shunning and Lei, Kai and Pan, Feng},
+  journal={Advanced Functional Materials},
+  volume={32},
+  number={26},
+  pages={2201437},
+  year={2022},
+  publisher={Wiley Online Library},
+  abstract={The recent marriage of materials science and artificial intelligence has created the need to extract and collate materials information from the tremendous backlog of academic publications. However, this is notoriously hard to achieve in sophisticated application domains, such as Li-ion battery (LIB) cathodes, which require multiple variables for materials selection, making it challenging to automatically identify the critical terms in the text. Herein, a semantics representation framework, featuring a dual-attention module that refines word embeddings through multi-source information fusion, is proposed for literature mining of LIB cathodes. The word embeddings thus produced are biased toward domain-specific knowledge and can enable the detection of deep-seated associations among materials for targeted applications. Based on this framework, we establish a semantic knowledge graph dedicated to LIB cathodes, which allows us to unravel the latent materials relationships from scientific literature and even to discover candidate materials not yet exploited as cathodes before. This work provides a long-sought path to the realization of text-mining-based knowledge management for complicated materials systems with little dependence on domain expertise.},
+  doi={10.1002/adfm.202201437},
+  keywords={data-driven knowledge discovery, knowledge graph, Li-ion battery, cathodes, semantics representation, text mining},
+  url={https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202201437}
+}
+
+@article{huang2022batterydataextractor,
+  title={BatteryDataExtractor: battery-aware text-mining software embedded with BERT models},
+  author={Huang, Shu and Cole, Jacqueline M},
+  journal={Chemical Science},
+  volume={13},
+  number={39},
+  pages={11487--11495},
+  year={2022},
+  publisher={Royal Society of Chemistry},
+  abstract={Due to the massive growth of scientific publications, literature mining is becoming increasingly popular for researchers to thoroughly explore scientific text and extract such data to create new databases or augment existing databases. Efforts in literature-mining software design and implementation have improved text-mining productivity, but most of the toolkits that mine text are based on traditional machine-learning-algorithms which hinder the performance of downstream text-mining tasks. Natural-language processing (NLP) and text-mining technologies have seen a rapid development since the release of transformer models, such as bidirectional encoder representations from transformers (BERT). Upgrading rule-based or machine-learning-based literature-mining toolkits by embedding transformer models into the software is therefore likely to improve their text-mining performance. To this end, we release a Python-based literature-mining toolkit for the field of battery materials, BatteryDataExtractor, which involves the embedding of BatteryBERT models in its automated data-extraction pipeline. This pipeline employs BERT models for token-classification tasks, such as abbreviation detection, part-of-speech tagging, and chemical-named-entity recognition, as well as new double-turn question-answering data-extraction models for auto-generating repositories of inter-related material and property data as well as general information. We demonstrate that BatteryDataExtractor exhibits state-of-the-art performance on the evaluation data sets for both token classification and automated data extraction. To aid the use of BatteryDataExtractor, its code is provided as open-source software, with associated documentation to serve as a user guide.},
+  doi={10.1039/D2SC04322J},
+  keywords={BatteryDataExtractor, BatteryBERT, text mining, chemical information extraction, token classification, question-answering model},
+  url={https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc04322j}
+}
+
+@article{nie2021construction,
+  title={Construction and application of materials knowledge graph based on author disambiguation: revisiting the evolution of LiFePO4},
+  author={Nie, Zhiwei and Liu, Yuanji and Yang, Luyi and Li, Shunning and Pan, Feng},
+  journal={Advanced Energy Materials},
+  volume={11},
+  number={16},
+  pages={2003580},
+  year={2021},
+  publisher={Wiley Online Library},
+  abstract={Due to the recent innovations in computer technology, the emerging field of materials informatics has now become a catalyst for a revolution of the research paradigm in materials science. Knowledge graphs, which provide support for knowledge management, are able to collectively capture the scientific knowledge from the vast collection of research articles and accomplish the automatic recognition of the relationships between entities. In this work, a materials knowledge graph, named MatKG, is constructed, which establishes a unique correspondence between subjects and objects in the materials science area. An emphasis is placed on the disambiguation of authors, addressed by a deduplication model based on machine learning and matching dependencies algorithms. Specifically, MatKG is applied to perform tracking on research trends in the study of LiFePO4 and to automatically chronicle the milestones achieved so far. It is believed that MatKG can serve as a versatile research platform for amalgamating and refining the scientific knowledge of materials in a variety of subfields and intersectional domains.},
+  doi={10.1002/aenm.202003580},
+  keywords={lithium iron phosphate, machine learning, matching dependencies, materials knowledge graphs},
+  url={https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/aenm.202003580}
+}
+
+@article{venugopal2024matkg,
+  title={MatKG: An autonomously generated knowledge graph in Material Science},
+  author={Venugopal, Vineeth and Olivetti, Elsa},
+  journal={Scientific Data},
+  volume={11},
+  number={1},
+  pages={217},
+  year={2024},
+  publisher={Nature Publishing Group UK London},
+  abstract={In this paper, we present MatKG, a knowledge graph in materials science that offers a repository of entities and relationships extracted from scientific literature. Using advanced natural language processing techniques, MatKG includes an array of entities, including materials, properties, applications, characterization and synthesis methods, descriptors, and symmetry phase labels. The graph is formulated based on statistical metrics, encompassing over 70,000 entities and 5.4 million unique triples. To enhance accessibility and utility, we have serialized MatKG in both CSV and RDF formats and made these, along with the code base, available to the research community. As the largest knowledge graph in materials science to date, MatKG provides structured organization of domain-specific data. Its deployment holds promise for various applications, including material discovery, recommendation systems, and advanced analytics.},
+  doi={10.1038/s41597-024-03039-z},
+  keywords={materials knowledge graph, MatKG, named entity recognition, RDF, NLP, materials science},
+  url={https://www.nature.com/articles/s41597-024-03039-z}
+}
+
+@inproceedings{pan2022material,
+  title={Material Calculation Collaborates with Grain Morphology Knowledge Graph for Material Properties Prediction},
+  author={Pan, Ziwen and Shu, Chao and Xin, Zhuoran and Xie, Cheng and Shen, Qi and Yang, Yun},
+  booktitle={2022 IEEE 25th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
+  pages={227--232},
+  year={2022},
+  organization={IEEE},
+  abstract={The study of microstructure of materials is of great significance in the field of materials science. The interdisciplinary cooperation of materials science and computer science makes it more accurate and efficient to explore the relationship between material microstructure and material properties. Machine learning has potential in exploring the relationship between microstructure and properties of materials. This paper proposes adding the morphology features of grains into the construction of grain knowledge graph to enrich the grain information in the graph. First, an autoencoder extracts the grain morphology features and adds them to the grain knowledge graph. Then, the graph convolutional network is used to extract the features of the graph, and the fully connected network is used to predict the properties of the material. Experiments are performed on actual EBSD scanning data. The experimental results show that the proposed method has noticeable improvement over the competing methods.},
+  doi={10.1109/CSCWD54268.2022.9776104},
+  keywords={collaboration across disciplines, autoencoder, knowledge graph, materials genome, representation learning},
+  series={IEEE International Conference on Computer Supported Cooperative Work in Design},
+  url={https://ieeexplore.ieee.org/document/9776104}
+}
+
+@article{zhang2024materials,
+  title={A materials terminology knowledge graph automatically constructed from text corpus},
+  author={Zhang, Yuwei and Chen, Fangyi and Liu, Zeyi and Ju, Yunzhuo and Cui, Dongliang and Zhu, Jinyi and Jiang, Xue and Guo, Xi and He, Jie and Zhang, Lei and others},
+  journal={Scientific Data},
+  volume={11},
+  number={1},
+  pages={600},
+  year={2024},
+  publisher={Nature Publishing Group UK London},
+  abstract={A scalable, reusable, and broad-coverage unified material knowledge representation shows its importance and will bring great benefits to data sharing among materials communities. A knowledge graph (KG) for materials terminology, which is a formal collection of term entities and relationships, is conceptually important to achieve this goal. In this work, we propose a KG for materials terminology, named Materials Genome Engineering Database Knowledge Graph (MGED-KG), which is automatically constructed from text corpus via natural language processing. MGED-KG is the most comprehensive KG for materials terminology in both Chinese and English languages, consisting of 8,660 terms and their explanations. It encompasses 11 principal categories, such as Metals, Composites, Nanomaterials, each with two or three levels of subcategories, resulting in a total of 235 distinct category labels. For further application, a knowledge web system based on MGED-KG is developed and shows its great power in improving data sharing efficiency from the aspects of query expansion, term, and data recommendation.},
+  doi={10.1038/s41597-024-03448-0},
+  keywords={materials terminology, knowledge graph, MGED-KG, natural language processing, text mining, materials science},
+  url={https://www.nature.com/articles/s41597-024-03448-0}
+}
+
+@article{rajamohan2025materials,
+  title={Materials Data Science Ontology (MDS-Onto): Unifying Domain Knowledge in Materials and Applied Data Science},
+  author={Rajamohan, Balashanmuga Priyan and Bradley, Alexander C Harding and Tran, Van D and Gordon, Jonathan E and Caldwell, Hayden W and Mehdi, Redad and Ponon, Gabriel and Tran, Quynh D and Dernek, Ozan and Kaltenbaugh, Jarod and others},
+  journal={Scientific Data},
+  volume={12},
+  number={1},
+  pages={628},
+  year={2025},
+  publisher={Nature Publishing Group UK London},
+  abstract={Ontologies have gained popularity in the scientific community as a way to standardize terminologies in organizations’ data. Although certain cohorts have created frameworks with rules and guidelines on creating ontologies, there exist significant variations in how Materials Science ontologies are currently developed. We seek to provide guidance in the form of a unified automated framework for developing interoperable and modular ontologies for Materials Data Science that simplifies the ontology terms matching by establishing a semantic bridge up to the Basic Formal Ontology(BFO). This framework provides key recommendations on how ontologies should be positioned within the semantic web, what knowledge representation language is recommended, and where ontologies should be published online to boost their findability and interoperability. Two fundamental components of the MDS-Onto framework are the bilingual package called FAIRmaterials for ontology creation and FAIRLinked, for FAIR data creation. To showcase the practical capabilities of FAIRmaterials, we present two exemplar domain ontologies of MDS-Onto: Synchrotron X-Ray Diffraction and Photovoltaics.},
+  doi={10.1038/s41597-025-04938-5},
+  keywords={knowledge graph, materials ontology, FAIR data, ontology framework, data interoperability, materials science},
+  url={https://www.nature.com/articles/s41597-025-04938-5}
+}
+
+@article{zheng2024visual,
+  title={Visual-triggered contextual guidance for lithium battery disassembly: A multi-modal event knowledge graph approach},
+  author={Zheng, Hangbin and Liu, Shimin and Zhang, Hengjun and Yu, Jiayi and Bao, Jinsong},
+  journal={Journal of Engineering Design},
+  pages={1--26},
+  year={2024},
+  publisher={Taylor \& Francis},
+  abstract={Lithium battery disassembly is a complex task that presents numerous challenges, including the wide variety of battery types, intricate manufacturing processes, and the absence of standardised procedures. These challenges pose significant obstacles in achieving efficient and accurate disassembly operations. Consequently, there is a clear need for guidance and support throughout the disassembly process. Conventional strategies for providing disassembly guidance often struggle to adapt to the dynamic changes that occur during the process. Therefore, it is essential to develop an approach that offers flexibility, efficiency, and adaptability to real-time visual cues in order to effectively address these challenges. This paper introduces a novel real-time visual guidance scheme that utilises a sophisticated multi-modal event knowledge graph. By leveraging outputs from computer vision models, the proposed scheme monitors the disassembly process in real-time and provides visually triggered, context-sensitive guidance through the multi-modal event knowledge graph. Additionally, this paper presents an auxiliary training method for visual state detection, guided by the large-scale visual model known as the Segment Anything Model (SAM), which helps mitigate the costs associated with data annotation during model development. The efficacy of the proposed framework is validated through experimental evaluations, demonstrating its potential in enhancing disassembly efficiency.},
+  doi={10.1080/09544828.2024.2301876},
+  keywords={Multi-modal fusion, knowledge graph, event graph, visual-triggered, lithium battery disassembly},
+  url={https://www.tandfonline.com/doi/full/10.1080/09544828.2024.2301876}
 }
